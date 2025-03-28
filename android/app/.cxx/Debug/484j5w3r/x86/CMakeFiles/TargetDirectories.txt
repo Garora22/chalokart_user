@@ -1,0 +1,2 @@
+C:/Users/defaultuser100000/OneDrive/Desktop/trippo_maps-user_code_14/android/app/.cxx/Debug/484j5w3r/x86/CMakeFiles/edit_cache.dir
+C:/Users/defaultuser100000/OneDrive/Desktop/trippo_maps-user_code_14/android/app/.cxx/Debug/484j5w3r/x86/CMakeFiles/rebuild_cache.dir

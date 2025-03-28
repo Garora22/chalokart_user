@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1045044642351",
+    "firebase_url": "https://chalo-kart-default-rtdb.firebaseio.com",
+    "project_id": "chalo-kart",
+    "storage_bucket": "chalo-kart.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045044642351:android:b3e0630f7715631c997cda",
+        "android_client_info": {
+          "package_name": "com.example.trippo_maps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCs_IcwrIqm0gIl1ITlrQdNM7JZqZA8ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
