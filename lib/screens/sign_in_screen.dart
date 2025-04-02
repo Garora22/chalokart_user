@@ -188,6 +188,7 @@ class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent, // Make the background transparent
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(

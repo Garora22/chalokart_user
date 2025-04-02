@@ -7,6 +7,7 @@ import 'package:trippo_maps/screens/sign_in_screen.dart';
 import 'package:trippo_maps/screens/main_screen.dart';
 import 'package:trippo_maps/screens/splash_screen.dart';
 import 'package:trippo_maps/themeProvider/theme_provider.dart';
+import '../utils/app_colors.dart';
 
 Future<void> main() async {
   runApp(const MyApp());
@@ -29,6 +30,24 @@ class MyApp extends StatelessWidget {
         darkTheme: MyThemes.darkTheme,
         debugShowCheckedModeBanner: false,
         home: SplashScreen(),
+        builder: (context, child) {
+          return Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                stops: [0, 0.32, 0.32, 1],
+                colors: [
+                  AppColors.primaryColor,
+                  AppColors.primaryColor,
+                  Color(0xFFF8F8F8),
+                  Color(0xFFF8F8F8),
+                ],
+              ),
+            ),
+            child: child!,
+          );
+        },
       ),
     );
   }
